@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(200, 220, 231);
+    
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+/* cities */
+.con {
+    margin: auto;
+    padding: 3rem;
+    background-color: #fffff6;
+}
+
+.city__title {
+    background-color: #ffffff;
+    display: block;
+    width: 75.9rem;
+    border-radius: 20px;
+}
+
+.item {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    margin: 1% 0%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px #a9a9a9;
+    background-clip: padding-box;
+}
+
+/* home */
+.users, .shops {
+  background-color: #fff;
+  width: 83rem;
+  height: 20rem;
+  margin: 1% 1%;
+}
+.user-text {
+  display: inline-block;
+  margin: 1% 2%;
+}
+
+.float-right {
+  width: 20rem;
+  height: 20rem;
+}
+
+.title{
+    background-image: url(intermallwallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 83rem;
+    height: 40rem;
+}
+
+.mx-auto {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    border-radius: 25px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 50%;
+    background-color: #e5e5e5;
+    z-index: 2;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
